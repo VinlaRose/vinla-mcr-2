@@ -1,0 +1,81 @@
+/* Styling for the delete button */
+button {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 8px;
+  }
+  
+  button:hover {
+    background-color: #ff4f4f;
+  }
+  
+  /* Styling for the archive and unarchive buttons */
+  button.archive,
+  button.unarchive {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #5a67d8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 8px;
+  }
+  
+  button.archive:hover,
+  button.unarchive:hover {
+    background-color: #4754b6;
+  }
+  
+  /* Styling for the edit button */
+  button.edit {
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #51cf66;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button.edit:hover {
+    background-color: #3b9c4d;
+  }
+  
+.habit-details-container {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    max-width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    margin-top: 100px;
+  }
+  
+  .habit-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .habit-goal {
+    font-size: 16px;
+    margin-bottom: 4px;
+  }
+  
+  .habit-frequency {
+    font-size: 16px;
+    margin-bottom: 4px;
+  }
+  
+  .habit-date {
+    font-size: 16px;
+    margin-bottom: 4px;
+  }
+  
